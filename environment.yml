@@ -5,8 +5,6 @@ dependencies:
   - pandas
   - seaborn
   - scikit-learn
-  - git
-  - pip
   - pip:
     - ipympl
     - jupyterlab
