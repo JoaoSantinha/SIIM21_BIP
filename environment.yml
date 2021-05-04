@@ -1,0 +1,15 @@
+name: SIIM_BIP
+dependencies:
+  - python=3.6
+  - numpy
+  - pandas
+  - seaborn
+  - scikit-learn
+  - pip:
+    - ipympl
+    - jupyterlab
+    - pydicom
+    - SimpleITK
+    - itk
+    - itkwidgets
+    - itk-elastix
