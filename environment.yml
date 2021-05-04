@@ -5,11 +5,13 @@ dependencies:
   - pandas
   - seaborn
   - scikit-learn
+  - git
+  - pip
   - pip:
     - ipympl
     - jupyterlab
     - pydicom
-    - "--editable=git+https://github.com/SimpleITK/SimpleITK@latest#egg=SimpleITK"
+    - "git+git://github.com/SimpleITK/SimpleITK@master#egg=SimpleITK"
     - itk
     - itkwidgets
     - itk-elastix
