@@ -9,7 +9,7 @@ dependencies:
     - ipympl
     - jupyterlab
     - pydicom
-    - git+git://github.com/SimpleITK/SimpleITK@releases/tag/latest#egg=SimpleITK
+    - git+git://github.com/SimpleITK/SimpleITK@latest#egg=SimpleITK
     - itk
     - itkwidgets
     - itk-elastix
