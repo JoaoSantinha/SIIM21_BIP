@@ -1,3 +1,12 @@
+# SIIM Meeting 2021 Hands-on Session
+
+![SIIM21](https://siim.org/resource/resmgr/siim2021/banners/SIIM2021_banner2500x600.png)
+
+# Basics of Image Processing
+### by João Santinha, Felipe Kitamura, and Nuno Loução
+
+## Instructions
+
 Run using mybinder
 ------------------
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JoaoSantinha/SIIM21_BIP/HEAD)
