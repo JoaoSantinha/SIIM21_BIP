@@ -2,7 +2,7 @@ Run using mybinder
 ------------------
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JoaoSantinha/SIIM21_BIP/HEAD)
 
-Installation
+Run Jupyter Notebooks locally - Installation and Jupyter notebook launch
 ------------
 
 1. To set the virtual environment to run this tutorial we will use conda. If you do not have you can install one of these two options:
@@ -13,22 +13,22 @@ Installation
   - clone repository in Windows using the following commands on your command line (replace <current_user> by your user name):
   ```
     cd C:\Users\<current_user>\Documents\
-    git clone https://github.com/JoaoSantinha/Medical_Image_Analysis_Workshop.git
+    git clone https://github.com/JoaoSantinha/SIIM21_BIP.git
   ```
   - clone repository in Mac/Linux using the following commands on your terminal:
   ```
     cd ~/Documents
-    git clone https://github.com/JoaoSantinha/Medical_Image_Analysis_Workshop.git
+    git clone https://github.com/JoaoSantinha/SIIM21_BIP.git
   ```
 
-3. Then create environment (called MIAW) and install required packages automatically:
+3. Then create environment (called SIIM_BIP) and install required packages automatically:
   ```
-    cd Medical_Image_Analysis_Workshop
+    cd SIIM21_BIP
     conda env create -f environment.yml
   ```
   
-4. Activate environment and install required Jupyter Lab extensions:
+4. Activate environment and start jupyter notebook:
   ```
-    conda activate MIAW
-    jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-matplotlib jupyterlab-datawidgets itkwidgets
+    conda activate SIIM_BIP
+    jupyter notebook
   ```
