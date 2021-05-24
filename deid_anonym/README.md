@@ -1,0 +1,1 @@
+# Folder containing files with removed burned in PHI
